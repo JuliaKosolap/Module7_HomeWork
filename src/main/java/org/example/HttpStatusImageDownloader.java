@@ -18,7 +18,7 @@ public class HttpStatusImageDownloader {
         out.close();
         in.close();
         byte[] response = out.toByteArray();
-        FileOutputStream fos = new FileOutputStream("src/main/output/status.jpg");
+        FileOutputStream fos = new FileOutputStream("src/main/imageOutput/status.jpg");
         fos.write(response);
         fos.close();
     }

@@ -23,6 +23,7 @@ public class HttpImageStatusCli {
         } catch (IOException e) {
             System.out.println("There is not image for HTTP status " + answer);;
         }
+        in.close();
 
     }
     }
